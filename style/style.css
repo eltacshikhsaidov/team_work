@@ -1,0 +1,37 @@
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #2A3F54;
+    justify-content: space-between;
+    color: white;
+}
+li:hover{
+    color: yellow;
+}
+.header{
+    position: sticky;
+    padding: 0;
+    margin: 0;
+}
+img{
+    margin-left: 10px;
+    width: 40px;
+    height: auto;
+    border-radius: 10px;
+}
+ul{
+    float: right;
+    display: contents;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding-top: 4px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 20px;
+}
